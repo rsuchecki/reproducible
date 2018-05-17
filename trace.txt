@@ -1,0 +1,20 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	rss	vmem	rchar	wchar
+1	80/5aa3c5	-	fetchRef (A_thaliana)	COMPLETED	0	2018-05-17 04:54:20.543	17.5s	17.2s	7.6%	11.4 MB	404.9 MB	32.5 MB	140.6 MB
+2	d2/983964	-	kangaIndex (A_thaliana)	COMPLETED	0	2018-05-17 04:54:38.106	1m 39s	1m 17s	188.0%	577.3 MB	832.4 MB	117 MB	498.1 MB
+3	49/a570d8	-	hisat2Index (A_thaliana)	COMPLETED	0	2018-05-17 04:54:38.128	3m 16s	1m 20s	188.0%	734.7 MB	2.1 GB	688.4 MB	605.5 MB
+5	f6/32e392	-	kangaSimReads (A_thaliana_10000)	COMPLETED	0	2018-05-17 04:54:38.169	8m 7s	2.4s	0.0%	87.1 MB	296.9 MB	65 MB	1.4 KB
+4	ba/16ae68	-	kangaSimReads (A_thaliana_1000)	COMPLETED	0	2018-05-17 04:54:38.147	8m 7s	2.3s	19.0%	86.9 MB	296.9 MB	65 MB	1.4 KB
+12	2a/2b2e0d	-	fasta2mockFASTQ (A_thaliana_1000)	COMPLETED	0	2018-05-17 05:02:45.231	483ms	13ms	-	-	-	-	-
+9	d4/ef842d	-	fasta2mockFASTQ (A_thaliana_10000)	COMPLETED	0	2018-05-17 05:02:45.128	1s	755ms	0.0%	7.6 MB	542.8 MB	4.5 MB	5.4 MB
+6	52/879ad9	-	kangaSimReads (A_thaliana_100000)	COMPLETED	0	2018-05-17 04:54:38.189	8m 18s	4s	36.0%	115.9 MB	312.9 MB	65 MB	1.4 KB
+8	a4/4e5722	-	kangaAlign (A_thaliana_10000 vs A_thaliana)	COMPLETED	0	2018-05-17 05:02:45.160	19.7s	18.8s	5.3%	591.5 MB	1.5 GB	577.1 MB	4.3 KB
+11	6e/48c3da	-	kangaAlign (A_thaliana_1000 vs A_thaliana)	COMPLETED	0	2018-05-17 05:02:45.208	20.6s	19.6s	2.8%	587 MB	1.5 GB	571.4 MB	101.5 KB
+16	1c/1bcbf1	-	fasta2mockFASTQ (A_thaliana_100000)	COMPLETED	0	2018-05-17 05:02:55.859	13.7s	4.4s	36.0%	7.5 MB	547.8 MB	8.1 MB	9.8 MB
+15	6b/9197cb	-	kangaAlign (A_thaliana_100000 vs A_thaliana)	COMPLETED	0	2018-05-17 05:02:55.825	18.2s	17s	39.1%	630.1 MB	1.5 GB	606.4 MB	4.3 KB
+7	d3/7b7f48	-	hisat2Align (A_thaliana_10000 vs A_thaliana)	COMPLETED	0	2018-05-17 05:02:45.174	40.8s	1.5s	0.0%	80.5 MB	155 MB	45.2 MB	2.6 KB
+10	9a/502931	-	hisat2Align (A_thaliana_1000 vs A_thaliana)	COMPLETED	0	2018-05-17 05:02:45.254	42.7s	2s	6.0%	76.4 MB	155 MB	45.2 MB	2.6 KB
+14	d4/2322ed	-	fastQC (A_thaliana_10000)	COMPLETED	0	2018-05-17 05:02:46.200	43.3s	4.2s	0.0%	30.5 MB	1.3 GB	1.9 MB	120 B
+18	07/b1d629	-	fastQC (A_thaliana_100000)	COMPLETED	0	2018-05-17 05:03:09.569	22.1s	5.2s	0.0%	56.1 MB	1.3 GB	3.5 MB	120 B
+17	be/579f36	-	hisat2Align (A_thaliana_100000 vs A_thaliana)	COMPLETED	0	2018-05-17 05:02:55.887	36s	6s	89.9%	210.2 MB	342.3 MB	281.4 MB	82.3 MB
+13	45/02dce4	-	fastQC (A_thaliana_1000)	COMPLETED	0	2018-05-17 05:02:45.769	48.3s	4.3s	32.0%	36.4 MB	1.3 GB	2.3 MB	120 B
+19	c9/a39f4f	-	multiQC	COMPLETED	0	2018-05-17 05:03:34.160	22.2s	7.1s	31.0%	64.8 MB	370 MB	15.7 MB	421.1 KB
